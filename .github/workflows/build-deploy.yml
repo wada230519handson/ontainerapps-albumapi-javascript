@@ -8,7 +8,7 @@ env:
   CONTAINER_REGISTRY:  arc01837cngepzugoj3e6.azurecr.io
   # Add envs
   RESOURCE_GROUP_NAME: handson-CICD
-  CONTAINERAPP_NAME:  aad-api-app # 準備タスクで作成された API Container App 名 `ctapp-demo-api` をここに記載
+  CONTAINERAPP_NAME:  cae-demo-containerapp # 準備タスクで作成された API Container App 名 `ctapp-demo-api` をここに記載
 
 jobs:
   build:
